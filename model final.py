@@ -1,6 +1,6 @@
 import tensorflow as tf
 import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler # scale the data
 
 # Load training data set from CSV file
 training_data_df = pd.read_csv("sales_data_training.csv", dtype=float)
