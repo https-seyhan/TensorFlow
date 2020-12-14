@@ -17,7 +17,7 @@ X_testing = test_data_df.drop('total_earnings', axis=1).values
 Y_testing = test_data_df[['total_earnings']].values
 
 # All data needs to be scaled to a small range like 0 to 1 for the neural
-# network to work well. Create scalers for the inputs and outputs.
+# network to work well. Create scalers for the inputs and outputs
 X_scaler = MinMaxScaler(feature_range=(0, 1))
 Y_scaler = MinMaxScaler(feature_range=(0, 1))
 
