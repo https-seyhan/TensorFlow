@@ -46,6 +46,7 @@ layer_3_nodes = 50
 # Section One: Define the layers of the neural network itself
 # Build the model
 # Building models are pretty strait forward
+# Layer name, weights, biases, output activation function
 
 # Input Layer
 with tf.variable_scope('input'):
