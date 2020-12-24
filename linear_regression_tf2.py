@@ -22,6 +22,7 @@ x = np.random.normal(size=N)
 m_real = np.random.normal(loc=0.5, scale=0.2, size=N)
 
 b_real = np.random.normal(loc=1.0, scale=0.2, size=N)
+
 # Linear regression
 y = m_real * x + b_real
 
