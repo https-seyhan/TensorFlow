@@ -46,7 +46,7 @@ print("model : ", model)
 loss = tf.reduce_mean(tf.pow(model - y, 2))
 
 # Step 4: Create optimizer
-optimizer = tf.optimizers.SGD(learn_rate)
+optimizer = tf.optimizers.SGD(learn_rate) # Gradient descent (with momentum) optimizer
 def absloss(predicted_y, desired_y):
     return tf.reduce_mean(tf.abs(predicted_y - desired_y))
 
