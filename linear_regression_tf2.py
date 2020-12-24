@@ -37,6 +37,7 @@ y_holder = tf.Variable(tf.ones(dtype=tf.float32, shape=[batch_size]))
 print(' m ', m.numpy())
 print("x_holder ", x_holder)
 print("y_holder ", y_holder)
+
 # Step 3: Define model and loss
 #model = m * x_holder + b
 model = m * x + b
