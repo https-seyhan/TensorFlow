@@ -1,4 +1,4 @@
-''' Demonstrates linear regression with TensorFlow '''
+''' linear regression with TensorFlow '''
 
 from __future__ import absolute_import
 from __future__ import division
