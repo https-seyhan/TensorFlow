@@ -27,6 +27,7 @@ b_real = np.random.normal(loc=1.0, scale=0.2, size=N)
 y = m_real * x + b_real
 
 # Step 2: Create variables and placeholders
+
 #m = tf.Variable(tf.random.normal([]))
 m= tf.Variable(tf.random.normal((1, 1)))
 b = tf.Variable(tf.random.normal([]))
