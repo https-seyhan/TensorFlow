@@ -16,7 +16,7 @@ num_batches = 400
 
 print(tf.__version__)
 
-# Step 1: Generate input points
+# Step 1: Generate input points (data)
 x = np.random.normal(size=N)
 
 m_real = np.random.normal(loc=0.5, scale=0.2, size=N)
