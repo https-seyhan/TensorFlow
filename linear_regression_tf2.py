@@ -8,7 +8,7 @@ from __future__ import print_function
 import tensorflow as tf
 import numpy as np
 
-# Set constants
+# Set constants (parameters)
 N = 1000
 learn_rate = 0.1
 batch_size = 40
