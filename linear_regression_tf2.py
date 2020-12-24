@@ -1,4 +1,4 @@
-''' linear regression with TensorFlow '''
+''' Build linear regression from scratch with TensorFlow '''
 
 from __future__ import absolute_import
 from __future__ import division
