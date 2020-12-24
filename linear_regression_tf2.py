@@ -15,6 +15,7 @@ batch_size = 40
 num_batches = 400
 
 print(tf.__version__)
+
 # Step 1: Generate input points
 x = np.random.normal(size=N)
 
